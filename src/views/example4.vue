@@ -49,61 +49,70 @@
 </header>
 </div>
 
-  <!-- <div class="container">
-    <div id="p5Canvas"></div>
-  </div>  -->
-  
-  
 <div class="background">
 	<center>
-    <div class="background" style="width:100% ;height:3em;"></div> 
-	<header id="banner" class="major-alt-style1" style="border-radius: 30px;width:100%;height:20em;">
-		<center><h2>
-      <div><h1><h1></h1></h1></div>
+	<header id="banner" class="major-alt-style1" style="border-radius: 30px;height:23em;width:100%">
+		<h2>
+            <div><h1><h1><h1></h1></h1></h1></div>
 		<font class="header-major-h1">
-			<font>科技藝術作品賞析</font>
+			<font>招 生 Q & A</font>
 		</font>
 		</h2>
 		<p>
 		<font>
-			<font>超多有趣科技藝術!</font>
+			<font>「科技藝術」（TechArt）</font>
 		</font>
 		</p>
-    </center>
 	</header>
 	</center>
-	<div id="two">
-  <p><span style="color: #800000;font-size:30px"><strong>國際互動藝術作品 (Interactive Art)</strong></span></p>
 
-<p><br><iframe src="https://www.youtube.com/embed/fAbycqD2UmQ" width="1120" height="630" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-	<header class="major" style="padding: 0em 15em 10em 15em">
-		<p style="text-align: center; font-size: 20px; line-height: 60px">
-		【1. Protrude, Flow (2000)】
-		</p>
-	</header>
+<section id="two" class="wrapper style3 special" style="text-align: left;font-size:25px;margin: 0em 10em 0em 10em;">
+<!-- <div class="left" style="    float: left;width: 15em;"> -->
+<p class="bottom"><strong>1.成績優異的同學，就讀藝術學院學士班，有<span style="color: #993300;">獎學金</span>嗎？<br></strong>
+A：<br>第一志願入學，且成績前三名同學，提供「春之清華-藝術卓越獎學金」，每學期補助3萬 (學雜費全免)，未來每學期維持在班上前幾名者（另定），下一個學期可持續獲此獎學金。詳情請參考：<a href="#" target="_blank" rel="noopener">國立清華大學藝術學院學士班春之清華獎學金審查原則</a></p>
 
-	<p><br><iframe src="https://www.youtube.com/embed/UEXPCnR8oVM" width="1120" height="630" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-	<header class="major" style="padding: 0em 15em 10em 15em">
-		<p style="text-align: center; font-size: 20px; line-height: 60px">
-		【2.”Calder” Interactive art (2006)】
-		</p>
-	</header>
+<p class="bottom"><strong>2.請問藝術學院<span style="color: #993300;">學士班</span>與<span style="color: #993300;">藝設系</span>有何不同？</strong><br>
+A：<br>
+(1)藝術學院學士班主要強調當代藝術中的新形式創作-科技藝術(Technology Art)，亦即運用科技媒介（如感測器晶片、網路、虛擬實境 …）從事創作。<br>
+(2)藝設系主要有油畫、版畫、雕塑等專業課程以及各類工藝專業課程（木藝、玻璃藝術設計、陶瓷藝術設計…等）。</p>
 
-	<p><br><iframe src="https://www.youtube.com/embed/STRMcmj-gHc" width="1120" height="630" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-	<header class="major" style="padding: 0em 15em 10em 15em">
-		<p style="text-align: center; font-size: 20px; line-height: 60px">
-		【3. Messa di Voce (2004)】
-		</p>
-	</header>
-	</div>
+<p class="bottom"><strong>3.請問<span style="color: #993300;">藝術學院學士班</span>與<span style="color: #993300;">清華學院的美資班</span>有何不同？</strong><br>
+A：<br>
+(1)藝術學院學士班說明如上，藝術學院有專屬教師，也特別開出的「科技藝術」跨域課程。<br>
+許多課程是全校唯一課程，也是各學系搶修課程，甚至有博士生來修習。<br>
+(2)清華學院的美資班課程設計為多元，師資與課程來自各學院。</p>
+
+<p class="bottom"><strong>4.請問學士班<span style="color: #993300;">是否大二後會做分流</span>？</strong><br>
+A：<br>
+(1)本院學士班主要把「科技藝術」跨域當成專業領域來培育人才，因此<strong><span style="color: #ff0000;">不做分流</span></strong>。<br>
+(2)學生未來若志趣不合，可透過<strong><span style="color: #ff0000;">轉系</span></strong>方式轉至感興趣之學系就讀。</p>
+
+<p class="bottom"><strong>5.請問考進學士班未來修習之專業課程為何？</strong><br>
+A：請參考藝術學院學士班<span style="color: #993300;"><a href="#">「修課說明」</a></span>說明。</p>
+
+<p class="bottom"><strong>6.請問學士班<span style="color: #993300;">上課地點</span>？</strong><br>
+A：<br>
+(1)目前學士班課程部分在校本部上課、部分在南大校區上課，但通識課程以及一些跨域課程會在校本部上課（每天有校本部與南大校區接駁車）。<br>
+(2)校本部即將興建嶄新的「<a href="#" target="_blank" rel="noopener">藝術學院大樓</a>」（全清華最美的大樓）與「教育學院大樓」於台積館旁紫荊葉雕塑作品的對面，藝術學院大樓後方也興建新的學生宿舍。</p>
+
+<p class="bottom"><strong>6.請問學士班<span style="color: #993300;">學生住宿</span>？</strong><br>
+A：<br>
+學生可選住南大校區或是校本部，未來請恰學務處。</p>
+
+<p class="bottom"><strong>7.請問學士班<span style="color: #993300;">畢業後出路</span>？</strong><br>
+A：<br>
+(1)<strong>學術升學</strong>：科技藝術研究所、新媒體研究所、傳播科技研究所，以及創新科技的理工研究所。<br>
+(2)<strong>就業方向</strong>：科技產品開發、智能生活、多媒體設計、互動科技、虛擬實境科技、新媒體傳媒、動畫與遊戲、廣告公關、影視科技、時尚流行、文化創意等各類產業工作。<br>
+(3)<strong>藝術創作</strong>：專職之科技藝術、新媒體藝術家。</p>
+
+<p class="bottom"><strong>8.若您<span style="color: #993300;">還有更多的問題</span>需要我們協助與解答嗎？</strong><br></p>
+<!-- </div> -->
+    </section>
 </div>
 </template>
-
 <script>
-// import P5 from 'p5';
-
 export default {
-  name: "科藝賞析",
+    name: "home",
 	data() {
 		return {
 			open1: false,
@@ -114,51 +123,6 @@ export default {
 			title: "藝 術 學 院 學 士 班",
 		};
 	},
-  // data() {
-  //   return {
-  //     p5Canvas: 1,
-  //   }
-  // },
-  // created() {
-  //   const sketch = p5 => {
-  //       let w = window.innerWidth;
-  //       let h = 900;
-
-  //       // let w = window.innerWidth;
-  //       // let h = window.innerHeight;
-
-  //       p5.setup = () => {
-  //           p5.createCanvas(w, h, p5.WEBGL);
-  //       };
-
-  //       p5.draw = () => {
-  //           p5.background(250);
-  //           p5.rotateY(p5.frameCount * 0.01);
-            
-  //           for (let j = 0; j < 5; j++) {
-  //             p5.push();
-  //             for (let i = 0; i < 80; i++) {
-  //               p5.translate(
-  //                 p5.sin(p5.frameCount * 0.001 + j) * 100,
-  //                 p5.sin(p5.frameCount * 0.001 + j) * 100,
-  //                 i * 0.1
-  //               );
-  //               p5.rotateZ(p5.frameCount * 0.002);
-  //               p5.push();
-  //               p5.sphere(8, 6, 4);
-  //               p5.pop();
-  //             }
-  //             p5.pop();
-  //           }
-
-  //       };
-  //   }
-
-  //   this.p5Canvas = new P5(sketch, 'p5Canvas');
-  // },
-  // unmounted () {
-  //   this.p5Canvas = 1;
-  // },
   myFunction(){
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -166,22 +130,71 @@ export default {
   } else {
     x.className = "topnav";
   }
-},
+}
 }
 </script>
-
 <style>
-/* #p5Canvas {
-  width: 100vw;
-  position: relative;
-  z-index: 1;
+ .left{
+    float: left;
+    width: 15em;
+
+} 
+.bottom{
+    padding-bottom: 3em;
+}
+#banner {
+padding: 8em 0 3.4em 0;
+position: relative;
+
+}
+.background {
+background-color: rgb(235, 234, 228);
+width: 100%;
+height: 100%;
+top: -5em;
 }
 
-main {
-  margin: 0 auto;
-  width: 90vw;
-} */
-/* Add a black background color to the top navigation */
+.major-alt-style1 {
+background-color: #5eadbb;
+padding: 0em 0em;
+margin: 0em 0em 0em 0em;
+color: #fff;
+width: 1200px;
+height: 200px;
+z-index: 77;
+}
+
+.major-alt-style2 {
+width: 100%;
+height: 130px;
+z-index: 50;
+}
+.header-major-h1 {
+color: inherit;
+font-size: 2.1em;
+margin-bottom: 0em;
+position: relative;
+padding-bottom: 0.65em;
+text-align: center;
+}
+.split {
+padding: 4.5em 2.5em 2.1em 2.5em;
+margin-left: 0em;
+width: 50%;
+position: right;
+top: 4.5em;
+}
+#two {
+z-index: 80;
+top: -4.5em;
+background-color: rgb(255, 255, 255);
+/* text-align: center; */
+position: relative;
+padding: 6em 6em 6em 6em;
+margin: 0em 15em 0em 15em;
+border-radius: 50px;
+box-shadow: 0px 0px 15px rgba(15, 1, 1, 0.2);
+}
 .home {
 box-sizing: border-box;
 
@@ -223,53 +236,6 @@ font-size: 18px;
 box-shadow: 0px 0px 15px rgba(15, 1, 1, 0.2);
 color: #fff;
 z-index: 100;
-}
-#banner {
-padding: 8em 0 3.4em 0;
-position: relative;
-
-}
-.background {
-background-color: rgb(235, 234, 228);
-width: 100%;
-height: 100%;
-top: -5em;
-}
-
-.major-alt-style1 {
-background-color: #5eadbb;
-padding: 0em 0em;
-margin: 0em 0em 0em 0em;
-color: #fff;
-width: 1200px;
-height: 200px;
-z-index: 77;
-}
-.header-major-h1 {
-color: inherit;
-font-size: 2.1em;
-margin-bottom: 0em;
-position: relative;
-padding-bottom: 0.65em;
-text-align: center;
-}
-.split {
-padding: 4.5em 2.5em 2.1em 2.5em;
-margin-left: 0em;
-width: 50%;
-position: right;
-top: 4.5em;
-}
-#two {
-z-index: 80;
-top: -4.5em;
-background-color: rgb(255, 255, 255);
-text-align: center;
-position: relative;
-padding: 6em 6em 6em 6em;
-margin: 0em 15em 0em 15em;
-border-radius: 50px;
-box-shadow: 0px 0px 15px rgba(15, 1, 1, 0.2);
 }
 .topnav {
   background-color: #333;

@@ -49,54 +49,53 @@
 </header>
 </div>
 
-  <!-- <div class="container">
-    <div id="p5Canvas"></div>
-  </div>  -->
-  
-  
 <div class="background">
 	<center>
     <div class="background" style="width:100% ;height:3em;"></div> 
-	<header id="banner" class="major-alt-style1" style="border-radius: 30px;width:100%;height:20em;">
+	<header id="banner" class="major-alt-style1" style="border-radius: 30px;width:100%;height:15em;">
 		<center><h2>
-      <div><h1><h1></h1></h1></div>
+      <div><h1><h1><h1></h1></h1></h1></div>
 		<font class="header-major-h1">
-			<font>科技藝術作品賞析</font>
+			<font>聯 絡 資 訊</font>
 		</font>
 		</h2>
 		<p>
 		<font>
-			<font>超多有趣科技藝術!</font>
+			<font></font>
 		</font>
 		</p>
     </center>
 	</header>
 	</center>
-	<div id="two">
-  <p><span style="color: #800000;font-size:30px"><strong>國際互動藝術作品 (Interactive Art)</strong></span></p>
+	<div id="two" style="margin: 0em 30em 0em 30em;">
+  <center><div class="middle">
+    <article id="post-19" class="section section-text">
+	<div class="row">
+				<div class="col-md-8 col-md-offset-2 page-content-wrap">
+			<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h2 class="hestia-title" style="font-size:30px;">聯繫 Contact</h2>
+<h5 class="description" style="color: rgb(116, 116, 116);font-size:15px;">國立清華大學藝術學院</h5>
+<div class="hestia-description">
+<div class="hestia-info info info-horizontal">
+<div class="icon icon-primary"><span style="color: #000000;font-size:23px">國立清華大學藝術學院學士班<br>
+30014新竹市南大路521號（教學大樓3F）</span></div>
+<h2></h2>
+<div class="icon icon-primary"><span style="color: #000000;font-size:20px">+886-3-5715131 #78802 / ipta@my.nthu.edu.tw</span></div>
+</div>
+</div>
 
-<p><br><iframe src="https://www.youtube.com/embed/fAbycqD2UmQ" width="1120" height="630" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-	<header class="major" style="padding: 0em 15em 10em 15em">
-		<p style="text-align: center; font-size: 20px; line-height: 60px">
-		【1. Protrude, Flow (2000)】
-		</p>
-	</header>
-
-	<p><br><iframe src="https://www.youtube.com/embed/UEXPCnR8oVM" width="1120" height="630" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-	<header class="major" style="padding: 0em 15em 10em 15em">
-		<p style="text-align: center; font-size: 20px; line-height: 60px">
-		【2.”Calder” Interactive art (2006)】
-		</p>
-	</header>
-
-	<p><br><iframe src="https://www.youtube.com/embed/STRMcmj-gHc" width="1120" height="630" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-	<header class="major" style="padding: 0em 15em 10em 15em">
-		<p style="text-align: center; font-size: 20px; line-height: 60px">
-		【3. Messa di Voce (2004)】
-		</p>
-	</header>
+		</div>
+	</div>
+</div></div></div></div>
+		</div>
+			</div>
+</article>
+  </div></center>
 	</div>
 </div>
+
 </template>
 
 <script>
@@ -114,51 +113,7 @@ export default {
 			title: "藝 術 學 院 學 士 班",
 		};
 	},
-  // data() {
-  //   return {
-  //     p5Canvas: 1,
-  //   }
-  // },
-  // created() {
-  //   const sketch = p5 => {
-  //       let w = window.innerWidth;
-  //       let h = 900;
 
-  //       // let w = window.innerWidth;
-  //       // let h = window.innerHeight;
-
-  //       p5.setup = () => {
-  //           p5.createCanvas(w, h, p5.WEBGL);
-  //       };
-
-  //       p5.draw = () => {
-  //           p5.background(250);
-  //           p5.rotateY(p5.frameCount * 0.01);
-            
-  //           for (let j = 0; j < 5; j++) {
-  //             p5.push();
-  //             for (let i = 0; i < 80; i++) {
-  //               p5.translate(
-  //                 p5.sin(p5.frameCount * 0.001 + j) * 100,
-  //                 p5.sin(p5.frameCount * 0.001 + j) * 100,
-  //                 i * 0.1
-  //               );
-  //               p5.rotateZ(p5.frameCount * 0.002);
-  //               p5.push();
-  //               p5.sphere(8, 6, 4);
-  //               p5.pop();
-  //             }
-  //             p5.pop();
-  //           }
-
-  //       };
-  //   }
-
-  //   this.p5Canvas = new P5(sketch, 'p5Canvas');
-  // },
-  // unmounted () {
-  //   this.p5Canvas = 1;
-  // },
   myFunction(){
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -171,17 +126,14 @@ export default {
 </script>
 
 <style>
-/* #p5Canvas {
-  width: 100vw;
-  position: relative;
-  z-index: 1;
-}
+.wpb_wrapper{
+  box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 30px;
+    width: 100%;
+    text-align: left;
 
-main {
-  margin: 0 auto;
-  width: 90vw;
-} */
-/* Add a black background color to the top navigation */
+}
 .home {
 box-sizing: border-box;
 

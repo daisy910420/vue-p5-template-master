@@ -1,71 +1,272 @@
 <template>
-  <div class="container">
-    <div id="p5Canvas"></div>
+<div class="home">
+<header id="header" >
+<div class="topnav" id="myTopnav">
+  <img class ="a" src="http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/cropped-NTHU-logo.png" alt="國立清華大學logo" style="float:left;width:80px;height:80px;">
+	<a class="a1"></a>
+  <div class="a dropdown">
+    <button class="dropbtn"><router-link to="/example5">聯絡</router-link>
+      <i class="fa fa-caret-down"></i>
+    </button>
   </div>
+
+  <div class="a dropdown">
+    <button class="dropbtn"><router-link to="/example4">招生<span class="caret"></span></router-link>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#home"><router-link to="/example4">招生 Q&A</router-link></a>
+      <a href="#home"><router-link to="/example4">春之清華獎學金</router-link></a>
+    </div>
+  </div>
+  <div class="a dropdown">
+    <button class="dropbtn"><router-link to="/example3">學士班<span class="caret"></span></router-link>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#home"><router-link to="/example3">學士班簡介</router-link></a>
+      <a href="#home"><router-link to="/example3">學士班課程</router-link></a>
+      <a href="#home"><router-link to="/example3">國際交換</router-link></a>
+    </div>
+  </div>
+  <div class="a dropdown">
+    <button class="dropbtn"><router-link to="/example2">科藝賞析<span class="caret"></span></router-link>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#home"><router-link to="/example2">數位文創作品</router-link></a>
+      <a href="#home"><router-link to="/example2">互動藝術作品</router-link></a>
+      <a href="#home"><router-link to="/example2">動力藝術作品</router-link></a>
+    </div>
+  </div>
+  <div class="a dropdown">
+    <button class="dropbtn active" style="background-color: #4493b8;"><router-link to="/">Home</router-link>
+      <i class="fa fa-caret-down"></i>
+    </button>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</header>
+</div>
+<vc-calendar :attributes='attrs'></vc-calendar>
 </template>
-
 <script>
-import P5 from 'p5';
-
 export default {
-  data() {
-    return {
-      p5Canvas: null,
-    }
-  },
-  created() {
-    const sketch = p5 => {
-        let w = 500;
-        let h = 400;
-
-        // let w = window.innerWidth;
-        // let h = window.innerHeight;
-
-        p5.setup = () => {
-            p5.createCanvas(w, h, p5.WEBGL);
-        };
-
-        p5.draw = () => {
-            p5.background(0);
-
-            let locX = p5.mouseX - w / 2;
-            let locY = p5.mouseY - h / 2;
-
-            p5.ambientLight(50);
-            p5.directionalLight(255, 0, 0, 0.25, 0.25, 0);
-            p5.pointLight(0, 0, 255, locX, locY, 250);
-
-            p5.push();
-            p5.translate(-w / 4, 0, 0);
-            p5.rotateZ(p5.frameCount * 0.02);
-            p5.rotateX(p5.frameCount * 0.02);
-            p5.specularMaterial(250);
-            p5.box(100, 100, 100);
-            p5.pop();
-
-            p5.translate(w / 4, 0, 0);
-            p5.ambientMaterial(250);
-            p5.sphere(120, 64);
-
-        };
-    }
-
-    this.p5Canvas = new P5(sketch, 'p5Canvas');
-  },
-  unmounted () {
-    this.p5Canvas = null;
-  },
+      
+  myFunction(){
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 }
 </script>
-
 <style>
-#p5Canvas {
-  width: 100vw;
-  position: relative;
+#banner {
+padding: 8em 0 3.4em 0;
+position: relative;
+
+}
+.background {
+background-color: rgb(235, 234, 228);
+width: 100%;
+height: 100%;
+top: -5em;
 }
 
-main {
-  margin: 0 auto;
-  width: 90vw;
+.major-alt-style1 {
+background-color: #5eadbb;
+padding: 0em 0em;
+margin: 0em 0em 0em 0em;
+color: #fff;
+width: 1200px;
+height: 200px;
+z-index: 77;
+}
+.header-major-h1 {
+color: inherit;
+font-size: 2.1em;
+margin-bottom: 0em;
+position: relative;
+padding-bottom: 0.65em;
+text-align: center;
+}
+.split {
+padding: 4.5em 2.5em 2.1em 2.5em;
+margin-left: 0em;
+width: 50%;
+position: right;
+top: 4.5em;
+}
+#two {
+z-index: 80;
+top: -4.5em;
+background-color: rgb(255, 255, 255);
+text-align: center;
+position: relative;
+padding: 6em 6em 6em 6em;
+margin: 0em 15em 0em 15em;
+border-radius: 50px;
+box-shadow: 0px 0px 15px rgba(15, 1, 1, 0.2);
+}
+.home {
+box-sizing: border-box;
+
+}
+
+
+/* .a1 {
+margin-right: 750px;
+padding: 30px;
+font-size: 20px;
+}  */
+
+.a {
+margin-left: 24px;
+padding: 18px;
+font-size: 20px;
+}
+.caret {
+display: inline-block;
+width: 0;
+height: 0;
+margin-left: 2px;
+vertical-align: middle;
+border-top: 4px dashed;
+border-top: 4px solid \9;
+border-right: 4px solid transparent;
+border-left: 4px solid transparent;
+}
+
+#header {
+background-attachment: fixed;
+display: flex;
+left: 0;
+position: fixed;
+top: 0;
+width: 100%;
+padding-bottom: 1em;
+font-size: 18px;
+box-shadow: 0px 0px 15px rgba(15, 1, 1, 0.2);
+color: #fff;
+z-index: 100;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  z-index: 101;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #4493b8;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #d1fffd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 }
 </style>
