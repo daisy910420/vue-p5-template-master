@@ -26,7 +26,7 @@
     <div class="dropdown-content">
       <a href="#home"><router-link to="/example3">學士班簡介</router-link></a>
       <a href="#home"><router-link to="/example3">學士班課程</router-link></a>
-      <a href="#home"><router-link to="/example3">國際交換</router-link></a>
+      <a href="#home"><router-link to="/example3">藝術學院大樓(new)</router-link></a>
     </div>
   </div>
   <div class="a dropdown">
@@ -36,7 +36,7 @@
     <div class="dropdown-content">
       <a href="#home"><router-link to="/example2">數位文創作品</router-link></a>
       <a href="#home"><router-link to="/example2">互動藝術作品</router-link></a>
-      <a href="#home"><router-link to="/example2">動力藝術作品</router-link></a>
+      <a href="#home"><router-link to="/example2-3">動力藝術作品</router-link></a>
     </div>
   </div>
   <div class="a dropdown">

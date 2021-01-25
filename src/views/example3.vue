@@ -26,7 +26,7 @@
     <div class="dropdown-content">
       <a href="#home"><router-link to="/example3">學士班簡介</router-link></a>
       <a href="#home"><router-link to="/example3">學士班課程</router-link></a>
-      <a href="#home"><router-link to="/example3">國際交換</router-link></a>
+      <a href="#home"><router-link to="/example3">藝術學院大樓(new)</router-link></a>
     </div>
   </div>
   <div class="a dropdown">
@@ -36,7 +36,7 @@
     <div class="dropdown-content">
       <a href="#home"><router-link to="/example2">數位文創作品</router-link></a>
       <a href="#home"><router-link to="/example2">互動藝術作品</router-link></a>
-      <a href="#home"><router-link to="/example2">動力藝術作品</router-link></a>
+      <a href="#home"><router-link to="/example2-3">動力藝術作品</router-link></a>
     </div>
   </div>
   <div class="a dropdown">
@@ -48,7 +48,43 @@
 </div>
 </header>
 </div>
-<vc-calendar :attributes='attrs'></vc-calendar>
+
+<div class="background">
+	<center>
+    
+	<header id="banner" class="major-alt-style1" style="border-radius: 30px;height:23em;width:100%;background-image: url(http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/ART-01.jpg);opacity:0.5;">
+		<h2>
+            <div><h1><h1><h1></h1></h1></h1></div>
+		<font class="header-major-h1">
+			<font style="color: black;">清華大學【藝術學院大樓】建築比案終於出爐！</font>
+		</font>
+		</h2>
+		<p>
+		<font>
+			<font></font>
+		</font>
+		</p>
+	</header>
+
+	</center>
+
+<section id="two" class="wrapper style3 special" style="text-align: left;font-size:25px;margin: 0em 10em 0em 10em;">
+<p>千呼萬喚，清華大學【藝術學院大樓】建築比案終於出爐，是由<span style="color: #008080;">郭旭原建築師</span>作品獲得，<span style="color: #008080;">地點在校本部南門「紫荊葉」雕塑品的對面空地</span>。大樓未來將包含音樂系、藝設系、科技藝術學士班與研究所。<strong><br><br>賀陳校長勉勵大家</strong>：<br>
+①積極切切實實把大樓蓋至到位，<br>
+②需有藝術美感也要有當代前瞻e化功能，<br>
+③未來生活在裡面要能有〝幸福感〞。</p>
+<p>希望藝術學院大樓將來是清華最美的建築！</p>
+<p>這陣子大家密集討論空間配置，其中科技藝術系所空間包含展覽室、多媒體電腦教室、數位自造教室、造形設計教室、科技藝術數位繪圖製作教室、科技藝術電子感測製作教室、科技藝術影像投射製作教室、數位藝術表演空間、虛擬實境實驗室、數位藝術表演空間、動力藝術實驗室、互動藝術實驗室、穿戴裝置實驗室、人工智慧應用實驗室、物聯網應用實驗室、仿生藝術實驗室、設備儲藏室、大學部學生工作室、研究生研究室…。音樂系也規劃有許許多多專業音樂教室與表演廳；藝設系也規劃有許許多多油畫、版畫、雕塑教室、金工、木藝、陶瓷、琉璃…等工藝教室。（這幾天大家還在想裡面弄個「溜滑梯」或是「顛覆清華的創意咚咚」，像德國慕尼黑大學一樣上課溜滑梯好玩一些。）</p>
+<p>另外，在新建的「藝術學院大樓」後方學校也將新建「新的學生宿舍」。未來住宿、上課，都聯繫在一起。<br>
+除此，學校也獲得捐款，及將要再蓋一個「當代藝術美術館」，也在附近區域。</p>
+<p>未來有新大樓，固然欣喜，然需不忘梅貽琦校長之期勉 -「大學者，非謂有大樓之謂也，有大師之謂也」!</p>
+<p><img class="alignnone size-full wp-image-6611" src="http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/ART-01.jpg" alt="" width="838" height="459" srcset="http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/ART-01.jpg 838w, http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/ART-01-768x421.jpg 768w" sizes="(max-width: 838px) 100vw, 838px"></p>
+<p><img class="alignnone size-full wp-image-6612" src="http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/ART-02.jpg" alt="" width="836" height="461" srcset="http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/ART-02.jpg 836w, http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/ART-02-768x424.jpg 768w" sizes="(max-width: 836px) 100vw, 836px"></p>
+<p><img class="alignnone size-full wp-image-6613" src="http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/ART-03.jpg" alt="" width="758" height="519"></p>
+<p><img class="alignnone size-full wp-image-6614" src="http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/purple.jpg" alt="" width="1200" height="801" srcset="http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/purple.jpg 1200w, http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/purple-768x513.jpg 768w, http://ipta.nthu.edu.tw/wp-content/uploads/2019/02/purple-360x240.jpg 360w" sizes="(max-width: 1200px) 100vw, 1200px"></p>
+<p>&nbsp;</p>
+    </section>
+</div>
 </template>
 <script>
 export default {
